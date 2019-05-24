@@ -1,25 +1,9 @@
 import markdown
 import re
-import os
 import glob
 
 # Markdown拡張
 mdextensions = ["tables"]
-
-
-# ディレクトリ全探索
-def find_all(directory):
-    for root, dirs, files in os.walk(directory):
-        yield root
-        for file in files:
-            yield os.path.join(root, file)
-
-
-# カレントディレクトリから１番最初に見つかるファイル相対PATHを取得
-def onefind_path(filename):
-    for path in find_all('.'):
-        if re.search(filename + '$', path):
-            return path
 
 
 # mdファイルの変換
@@ -43,7 +27,7 @@ def convertHtml(mdpath, htmlpath, style):
 if __name__ == '__main__':
 
     # スタイルは、style.cssを参照する
-    with open(onefind_path('style.css'), 'rt', encoding="utf-8") as f:
+    with open('./style.css', 'rt', encoding="utf-8") as f:
         style = f.read()
         for mdfile in glob.glob("*.md"):
             print("%s の変換を開始します" % mdfile)
