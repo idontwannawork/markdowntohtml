@@ -59,7 +59,7 @@ pip install Markdown
 
 * iamacat.md
 
-    HTMLファイルの生成元であるmdファイル。
+    HTMLファイルの生成元であるサンプルのmdファイル。中身は「吾輩は猫である」の冒頭。
     
 * iamacat.html
 
