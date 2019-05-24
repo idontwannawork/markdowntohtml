@@ -33,7 +33,7 @@ pip install Markdown
 
     ```console
     $ ls
-    README.md    iamacat.md   main.css     mdtohtml.py  style.css
+    README.md    iamacat.md   main.css     mdtohtml.py
     ```
 
 1. 配置したら、そのフォルダにて下記のコマンドを実行する。
@@ -47,7 +47,7 @@ pip install Markdown
     -----------------------------------
     README.md を README.html へ変換しました
     $ ls
-    README.html   README.md     iamacat.html  iamacat.md    main.css      mdtohtml.py   style.css
+    README.html   README.md     iamacat.html  iamacat.md    main.css      mdtohtml.py
     ```
 
 ### 処理内容
