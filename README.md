@@ -53,3 +53,19 @@ pip install Markdown
 ### 処理内容
 
 実行されたフォルダ中に存在するmdファイルを取得して、HTMLファイルに変換して同じフォルダーに出力する。mdファイルが複数ある場合は、すべてHTML化する。
+
+
+## リポジトリのファイルについて
+
+* iamacat.md
+
+    HTMLファイルの生成元であるmdファイル。
+    
+* iamacat.html
+
+    上記の`iamacat.md`を元に生成したHTMLファイル。
+    
+## 当リポジトリについて
+
+[こちら](https://idontwannawork.github.io/posts/convert-markdown-to-html-with-python/)で軽く説明しています。
+
