@@ -67,5 +67,5 @@ pip install Markdown
     
 ## 当リポジトリについて
 
-[こちら](https://idontwannawork.github.io/posts/convert-markdown-to-html-with-python/)で軽く説明しています。
+[こちら](https://.github.io/posts/convert-markdown-to-html-with-python/)で軽く説明しています。
 
